@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic);
-@import url(https://fonts.googleapis.com/css?family=Lato:700);
 
 body {
+    width: 100%;
     background: #3D3D3D;
 	color:#FFF; 
-	font-family: 'Lato', sans-serif;
+	font-family: 'open sans', sans-serif;
 }
 
 h1 {
@@ -14,14 +14,6 @@ h1 {
     font-style: italic;
     margin-bottom: 0;
     font-weight: bolder;
-}
-
-p {
-    padding-top: 5%;
-    text-align: center;
-    font-weight: lighter;
-    font-size: 32px;
-    margin-top: 0px;
 }
 
 button {
@@ -34,4 +26,17 @@ button {
     background-color: transparent;
     color: white;
     border: 1px solid white;
+}
+
+footer {
+    margin-top: 32px !important;
+    display: block;
+    width: 90%;
+    margin: auto;
+    color: #aaa;
+    font-weight: lighter;
+}
+
+.contact-us {
+    float: right;
 }
